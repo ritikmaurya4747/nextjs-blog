@@ -39,8 +39,8 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.div_btn}>
-        <button onClick={() => navigate("/login") } className={styles.btn2}>Go to Login page</button>
-        <button onClick={() => navigate("/about") } className={styles.btn2}>Go to About page</button>
+        <button onClick={() => navigate("/login") } className={styles.btn2}>Navigate to Login page</button>
+        <button onClick={() => navigate("/about") } className={styles.btn2}>Navigate to About page</button>
         </div>
       </main>
     </div>
