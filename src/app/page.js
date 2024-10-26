@@ -8,16 +8,16 @@ export default function Home() {
   }
   const InnerCompo= () => {
     return (
-      <h1>Innner componenet</h1>
+      <h1>Innner component</h1>
     )
   }
   return (
     <div className={styles.page}>
       <main className={styles.main}>
         <h1>Events, function and state {name}</h1>
-        <button onClick={()=>apple("Fruit")}>Click me</button>
+        <button className={styles.btn} onClick={()=>apple("Fruit")}>Click me</button>
         <InnerCompo />
-        {InnerCompo()}
+        {/* {InnerCompo()} */}
       </main>
     </div>
   );
