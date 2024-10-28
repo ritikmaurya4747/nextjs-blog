@@ -7,7 +7,7 @@ const About = () => {
   const router = useRouter();
   return (
     <div className={styles.main}>
-      <h1>About Us</h1>
+      <h1 className="heading">About Page</h1>
       {/* <Link href="/" className={styles.link}>
         Go to Home Page
       </Link> */}

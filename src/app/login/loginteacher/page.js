@@ -1,7 +1,9 @@
+import styles from '../../page.module.css';
+
 const LoginTeacher = () => {
     return (
-        <div>
-            <h1>Login page for teacher</h1>
+        <div className={styles.main}>
+            <h1 className="heading">Login page for teacher</h1>
         </div>
     )
 }

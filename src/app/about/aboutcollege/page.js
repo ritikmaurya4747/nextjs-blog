@@ -1,7 +1,8 @@
+import styles from '../../page.module.css'
 const AboutCollege = () => {
     return (
-        <div>
-            <h1>About page for college</h1>
+        <div className={styles.main}>
+            <h1 className="heading">About page for college</h1>
         </div>
     )
 }
