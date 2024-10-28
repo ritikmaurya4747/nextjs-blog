@@ -3,7 +3,7 @@ import styles from '../../page.module.css';
 const LoginStudent = () => {
     return (
         <div className={styles.main}>
-            <h1 className="heading">Login page for student</h1>
+            <h1 className="heading">Login Page for Student</h1>
         </div>
     )
 }
