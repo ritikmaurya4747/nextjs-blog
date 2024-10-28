@@ -37,6 +37,9 @@ export default function Home() {
           <Link href="/about" className={styles.link}>
             Go to About Page
           </Link>
+          <Link href="/productlist" className={styles.link}>
+            Fetch Products
+          </Link>
         </div>
         <div className={styles.div_btn}>
         <button onClick={() => navigate("/login") } className={styles.btn2}>Navigate to Login page</button>
