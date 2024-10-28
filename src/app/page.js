@@ -2,10 +2,10 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; // Import from next/navigation
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const router = useRouter(); // Correctly initialize useRouter
+  const router = useRouter();
   const [name, setName] = useState("Ritik");
 
   const apple = () => {
