@@ -1,9 +1,16 @@
+'use client'
 import Link from "next/link";
 import styles from "../page.module.css";
 import "./login.css";
+import { usePathname } from "next/navigation";
 export default function Layout({ children }) {
+  const pathName = usePathname();
+  // console.log(pathName);
+  
   return (
     <div>
+     {
+      pathName !== "/login/loginteacher" ?
       <ul className="login-menu">
         <li>
           <h4>Login Navbar</h4>
@@ -17,7 +24,8 @@ export default function Layout({ children }) {
         <li>
           <Link href="/login/loginteacher">Teacher Login</Link>
         </li>
-      </ul>
+      </ul> : <Link href='/login'>Go to Main Login Page</Link>
+     }
       {children}
     </div>
   );
