@@ -21,7 +21,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(187, 159, 159);
+  /* background-color: rgb(187, 159, 159); */
 }
 
 * {
