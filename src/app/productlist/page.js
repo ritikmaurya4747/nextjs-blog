@@ -25,7 +25,7 @@
 // }
 
 
-// yaha ham server side data fetch kar rahe hain.
+// yaha ham server side rendering kar rahe hain ,data fetch kar rahe hain.
 async function productList() {
     let data = await fetch('https://dummyjson.com/products');
     data = await data.json();
