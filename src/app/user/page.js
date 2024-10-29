@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import styles from '../page.module.css'
+// import styles from '@/page.module.css'  ye outside folder banake kr sakate hain
 export default function Page(){
     const [style,setStyle]= useState({backgroundColor:"green"})
     return (
