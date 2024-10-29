@@ -17,6 +17,8 @@
 //                     <div key={item.id}>
 //                     <h3>Name: {item.title}</h3>
 
+import Product from "./product";
+
 //                     </div>
 //                 ))
 //             }
@@ -31,7 +33,6 @@ async function productList() {
     data = await data.json();
     return data.products;
 }
-
 export default async function Page() {
     let products = await productList();
     console.log(products);
@@ -42,6 +43,7 @@ export default async function Page() {
                 products.map((item)=>(
                     <div>
                     <h3>Name: {item.title}</h3>
+                    <Product price={item.price}/>
                     </div>
                 ))
             }
