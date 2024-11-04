@@ -9,7 +9,7 @@ export default function FontOptimization() {
   );
 }
 
-// dynamic metaData generate aise karte hain
+// dynamic metaData generate aise karte hain yahi sahi tarika hain dynamic metaData generate karne ke liye 
 export function generateMetadata() {
   return {
     title: "Generate Metadata title",
